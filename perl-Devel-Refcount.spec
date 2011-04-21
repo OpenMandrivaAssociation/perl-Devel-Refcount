@@ -1,9 +1,9 @@
 %define upstream_name    Devel-Refcount
-%define upstream_version 0.07
+%define upstream_version 0.09
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Obtain the REFCNT value of a referent
 License:    GPL+ or Artistic
