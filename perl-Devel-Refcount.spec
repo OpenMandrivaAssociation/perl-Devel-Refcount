@@ -14,6 +14,7 @@ Source0:    http://www.cpan.org/modules/by-module/Devel/%{upstream_name}-%{upstr
 BuildRequires: perl(ExtUtils::CBuilder)
 BuildRequires: perl(Module::Build)
 BuildRequires: perl(Test::Exception)
+BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(Module::Build::Compat)
 BuildRequires: perl-devel
