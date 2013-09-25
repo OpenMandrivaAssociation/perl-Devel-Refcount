@@ -1,2 +1,4 @@
+removed_sources:
+  Devel-Refcount-0.09.tar.gz: 8f9919d1c737d1e36250b84f49c912d655a2d8c6
 sources:
-  "Devel-Refcount-0.09.tar.gz": 8f9919d1c737d1e36250b84f49c912d655a2d8c6
+  Devel-Refcount-0.10.tar.gz: a2ea865b79b0af500efe2051f179f9a4c0200251

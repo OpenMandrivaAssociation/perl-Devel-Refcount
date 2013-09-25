@@ -1,15 +1,15 @@
 %define upstream_name    Devel-Refcount
-%define upstream_version 0.09
+%define upstream_version 0.10
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:    Obtain the REFCNT value of a referent
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Devel/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/Devel/Devel-Refcount-%{upstream_version}.tar.gz
 
 BuildRequires: perl(ExtUtils::CBuilder)
 BuildRequires: perl(Module::Build)
@@ -79,4 +79,5 @@ rm -rf %buildroot
 
 * Mon Jun 29 2009 cpan2dist 0.05-1mdv
 - initial mdv release, generated with cpan2dist
+
 
